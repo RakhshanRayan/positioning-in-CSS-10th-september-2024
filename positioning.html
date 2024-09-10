@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      div {
+        right: 30px;
+        border: 3px solid rgb(197, 161, 95);
+      }
+      .absolute {
+        position: absolute;
+        left: 50px;
+        border: 3px solid rgb(76, 199, 76);
+      }
+      .relative {
+        position: relative;
+        left: 100px;
+        border: 3px solid rgb(78, 78, 126);
+      }
+      .fixed {
+        position: fixed;
+        top: 0;
+        right: 20px;
+        width: 300px;
+        border: 3px solid rgb(141, 74, 85);
+      }
+      .sticky {
+        position: sticky;
+        top: 1px;
+        left: 20px;
+        width: 100px;
+        border: 3px solid salmon;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>POSITIONING</h2>
+
+    <div>Div with no position property</div>
+
+    <div class="sticky">Div with sticky position property</div>
+
+    <div class="relative">
+      This div element has position: relative;
+
+      <div class="absolute">Absolute class DIV</div>
+    </div>
+
+    <div class="fixed">Div with fixed position property</div>
+  </body>
+</html>
